@@ -4,6 +4,7 @@
       <MarkdownTopNav></MarkdownTopNav>
       <MarkdownRight></MarkdownRight>
       <MarkdownLeft></MarkdownLeft>
+      <P></P>
     </div>
   </div>
 </template>
@@ -13,13 +14,14 @@ import { defineComponent } from "vue";
 import MarkdownTopNav from "./components/markdown-topbar/index.vue";
 import MarkdownLeft from "./components/markdown-left/index.vue";
 import MarkdownRight from "./components/markdown-right/index.vue";
-
+import P from "./components/test/parent.vue";
 export default defineComponent({
   name: "Markdown",
   components: {
     MarkdownTopNav,
     MarkdownLeft,
     MarkdownRight,
+    P,
   },
   setup() {
     return {};

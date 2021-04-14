@@ -1,15 +1,18 @@
 <template>
   <div>
-    <div>w</div>
+    <AutoTextArea></AutoTextArea>
   </div>
 </template>
 
 <script>
 import { defineComponent } from "vue";
+import AutoTextArea from "../auto-text-area/index.vue";
 
 export default defineComponent({
   name: "markdown-left",
-  components: {},
+  components: {
+    AutoTextArea,
+  },
   setup() {
     return {};
   },

@@ -1,3 +1,4 @@
+'use strict';
 import Markdown from "./markdown/index";
 
 export default {

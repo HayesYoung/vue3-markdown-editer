@@ -1,5 +1,9 @@
+example/
+public/
+packages/
+*.html
 
-
+*
 # Logs
 logs
 *.log

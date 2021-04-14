@@ -1,9 +1,10 @@
 {
   "name": "vue3-markdown-editer",
-  "version": "0.1.0",
+  "version": "0.1.4",
+  "author": "HayesYoung",
+  "license": "MIT",
   "description": "vue3 markdownEditer",
-  "main": "index.js",
-  "private": true,
+  "main": "example/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -11,7 +12,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "highlight.js": "^10.7.2",
+    "markdown-it": "^12.0.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -20,7 +22,11 @@
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "vue": "^3.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
   },
   "eslintConfig": {
     "root": true,
@@ -50,7 +56,5 @@
     "vue",
     "markdown",
     "editer"
-  ],
-  "author": "HayesYoung",
-  "license": "MIT"
+  ]
 }
